@@ -20,9 +20,9 @@ header h3 {
   font-weight: lighter;
 }
 
-.header__titulos{
-    line-height: 13px;
-    margin-bottom: 90px;
+.header__titulos {
+  line-height: 13px;
+  margin-bottom: 90px;
 }
 
 header > nav {
@@ -59,6 +59,30 @@ li > a:hover {
   font-weight: lighter;
 }
 
+.main__textoDescritivo--container {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+  padding-top: 18px;
+  border: 3px solid greenyellow;
+  box-shadow: 2px 3px 5px 5px gray;
+  background-color: whitesmoke;
+}
+
+.main__textoDescritivo {
+  max-width: 800px;
+  text-align: justify;
+  font-size: 18px;
+  line-height: 30px;
+}
+
 main img {
   max-width: 250px;
+  min-width: 180px;
 }
+
+img + p{
+ color: grey;
+ font-weight: bold;
+}
+
