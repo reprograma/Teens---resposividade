@@ -64,6 +64,7 @@ li > a:hover {
   justify-content: center;
   margin: 20px;
   padding-top: 18px;
+  padding: 15px;
   border: 3px solid greenyellow;
   box-shadow: 2px 3px 5px 5px gray;
   background-color: whitesmoke;
@@ -96,12 +97,69 @@ img + p {
   margin: 20px;
 }
 
-.main__trioSuculentas--container>div {
- text-align: center;
+.main__trioSuculentas--container > div {
+  text-align: center;
 }
 
-main>section{
-    margin-top: 70px;
+main > section {
+  margin-top: 70px;
 }
 
+footer {
+  background-color: whitesmoke;
+  padding: 15px;
+  text-align: center;
+  margin-top: 100px;
+}
 
+footer ul {
+  list-style: none;
+  text-align: justify;
+}
+
+.footer__contato--lista-container {
+  display: flex;
+  justify-content: center;
+}
+
+footer p:first-child {
+  font-weight: bold;
+  font-size: 18px;
+  font-style: normal;
+}
+
+footer li:first-child {
+  color: crimson;
+  font-weight: bold;
+}
+
+footer p {
+  font-style: italic;
+  font-size: 18px;
+}
+
+.footer__texto--ultimoParagrafo {
+  margin-top: 60px;
+  font-style: normal;
+  font-size: 17px;
+}
+
+@media screen and (max-width: 730px) {
+  .main__textoDescritivo--container {
+    padding: 23px;
+  }
+
+  .header__titulos {
+    line-height: 38px;
+    margin-bottom: 50px;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  nav ul {
+    display: block;
+    line-height: 30px;
+    text-align: right;
+    margin-right: 20px;
+  }
+}

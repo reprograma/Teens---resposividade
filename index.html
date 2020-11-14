@@ -16,9 +16,9 @@
       <nav>
         <div class="nav__lista--container">
           <ul>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Produtos</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="#main__textoDescritivo">Sobre</a></li>
+            <li><a href="#main__trioSuculentas--container">Produtos</a></li>
+            <li><a href="#footer__contato">Contato</a></li>
           </ul>
         </div>
       </nav>
@@ -29,7 +29,7 @@
     </header>
     <main>
       <div class="main__textoDescritivo--container">
-        <p class="main__textoDescritivo">
+        <p class="main__textoDescritivo" id='main__textoDescritivo'>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Eos
           dignissimos cupiditate quam veniam porro optio? Minima iure totam nam
           repellat! Cupiditate nisi natus aperiam iste itaque, voluptatibus
@@ -43,7 +43,7 @@
       </div>
 
       <section>
-        <div class="main__trioSuculentas--container">
+        <div class="main__trioSuculentas--container" id='main__trioSuculentas--container'>
           <div>
             <img
               src="./images/suculenta-1.png"
@@ -119,25 +119,28 @@
     <footer>
       <p>Obrigada por escolher as Suculentas da Harmonia!</p>
       <br />
-      <p>Entre em contato conosco:</p>
-      <ul>
-        <li>Telefone: XX-12345678</li>
-        <li>
-          <a href="mailto: suculentasdaharmonia@gmail.com">Nosso e-mail</a>
-        </li>
-        <li>
-          <a
-            href="https://www.google.com/search?rlz=1C1GCEA_enBR802BR802&tbm=lcl&sxsrf=ALeKk02fvza886spb8N-ERuithQM5W5VVA%3A1605369354535&ei=Cv6vX_CfIICl5OUPpae1gA4&q=rua+harmonia+77+-+vila+madalena&oq=rua+harmonia+vila+madalena+&gs_l=psy-ab.1.9.35i39k1j0j38j0i22i30k1l7.1483.1813.0.4440.3.3.0.0.0.0.228.423.0j1j1.2.0....0...1c.1.64.psy-ab..1.2.421....0.NYbk74OC1xk#rlfi=hd:;si:11460699668319868267;mv:[[-23.557025022680975,-46.68679345999988],[-23.55738497731903,-46.68718614000011]]"
-            >Nosso endereço</a
-          >
-        </li>
-        <li>
-          <a href="https://www.instagram.com/suculentas.brasil/?hl=pt-br"
-            >Siga a gente no insta!</a
-          >
-        </li>
+      <p id="footer__contato">Entre em contato conosco:</p>
+     
+      <div class="footer__contato--lista-container">
+          <ul>
+            <li>Telefone: XX-12345678</li>
+            <li>
+              <a href="mailto: suculentasdaharmonia@gmail.com">Nosso e-mail</a>
+            </li>
+            <li>
+              <a
+                href="https://www.google.com/search?rlz=1C1GCEA_enBR802BR802&tbm=lcl&sxsrf=ALeKk02fvza886spb8N-ERuithQM5W5VVA%3A1605369354535&ei=Cv6vX_CfIICl5OUPpae1gA4&q=rua+harmonia+77+-+vila+madalena&oq=rua+harmonia+vila+madalena+&gs_l=psy-ab.1.9.35i39k1j0j38j0i22i30k1l7.1483.1813.0.4440.3.3.0.0.0.0.228.423.0j1j1.2.0....0...1c.1.64.psy-ab..1.2.421....0.NYbk74OC1xk#rlfi=hd:;si:11460699668319868267;mv:[[-23.557025022680975,-46.68679345999988],[-23.55738497731903,-46.68718614000011]]"
+                >Nosso endereço</a
+              >
+            </li>
+            <li>
+              <a href="https://www.instagram.com/suculentas.brasil/?hl=pt-br"
+                >Siga a gente no insta!</a
+              >
+            </li>
+      </div>
       </ul>
-      <p>
+      <p class="footer__texto--ultimoParagrafo">
         Site criado em novembro de 2020 durante bootcamp da {reprograma} Teens
       </p>
     </footer>
