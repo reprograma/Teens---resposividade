@@ -79,10 +79,29 @@ li > a:hover {
 main img {
   max-width: 250px;
   min-width: 180px;
+  padding: 15px;
 }
 
-img + p{
- color: grey;
- font-weight: bold;
+img + p {
+  color: grey;
+  font-weight: bold;
+  margin-top: -4px;
 }
+
+.main__trioSuculentas--container {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  margin: 20px;
+}
+
+.main__trioSuculentas--container>div {
+ text-align: center;
+}
+
+main>section{
+    margin-top: 70px;
+}
+
 
