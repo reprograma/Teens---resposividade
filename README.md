@@ -9,6 +9,8 @@ Turma teens Reprograma | Front-end básico | 2020 | Responsividade
 
 [link para o modelo da página que faremos em aula](https://reprograma-teens-responsividade.netlify.app/);
 
+[link para o dontpad da semana](http://dontpad.com/teens-responsividade);
+
 ---
 
 ## CONTEÚDO AULA 18 DE NOVEMBRO, QUARTA, 13h30 - 17H30
@@ -47,6 +49,14 @@ Turma teens Reprograma | Front-end básico | 2020 | Responsividade
  
 ---
 
+- [x] **EXERCÍCIO DA SEMANA PARA 20/11**
+  - [x] Crie uma página web responsiva contendo os seguintes elementos:
+        -[x] `<nav>`; `<img>`; `<h1>`; `<p>`; `<footer>`; `<ul>` e `<li>`
+          - [x] Se necessário, adicione outros elementos da sua escolha
+         -[x] Procure trabalhar com medidas responsivas como: rem, %, max-width, etc
+         -[x] DESAFIO: Fazer a layout todo em Mobile First! (Lembre-se de utilizar as media queries com min-width)
+
+---
 ### Links úteis para estudo de Layouts Responsivos
 
 - [W3Schools - Responsividade em HTML e CSS](https://www.w3schools.com/html/html_responsive.asp)
