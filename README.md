@@ -1,0 +1,60 @@
+# Teens-Responsividade-Semana-3
+
+Turma teens Reprograma | Front-end básico | 2020 | Responsividade
+
+> Plano de aula para o dia 18 de novembro sobre Responsividade e Layouts Responsivos.
+> <img src="https://media.giphy.com/media/C9rvUHDXptgSRCooTv/giphy.gif"  width="250">
+
+---
+
+[link para o modelo da página que faremos em aula](https://reprograma-teens-responsividade.netlify.app/);
+
+---
+
+## CONTEÚDO AULA 18 DE NOVEMBRO, QUARTA, 13h30 - 17H30
+
+- [x] **Apresentações**
+- [x] **Combinados**
+- [x] **Apresentação PowerPoint parte1**
+  - [x] O que é um Responsividade?
+  - [x] Mobile First X Desktop First
+  - [x] Introdução ao `@media screen`: como e quando utilizar
+  - [x] Retomando medidas responsivas: rem; %; display flex; max-width; min-width
+  - [x] Por quê pensar em Mobile First?
+    - [x] Apresentação do projeto da aula; "Minha lojinha online"
+- [x] **Preparando estrutura de desenvolvimento juntas**
+  - [x] Criando pastas e arquivos, baixando as imagens e organizando o projeto
+- [x] **Mãos a obra, criando nosso primeiro layout responsivo**
+  - [x] Introdução ao elemento `<nav>`; a função da navbar
+  - [x] Estruturação dos elementos: criação de título, subtítulo, parágrafo, imagens, footer
+   - [x] Elementos utilizados no projeto: `<nav>`; `<h1>`, `<h3>`, `<div>`, `<img>`, `<p>`, `<footer>`
+  - [x] **Intervalo** - 15min
+- [x] **Retomando conteúdo pré-intervalo + tirar dúvidas**
+- [x] **Estilizando a página e tornando-a responsiva**
+  - [x] Começando a mexer no CSS:
+    - [x] Apresentando seletores relacionais
+      - [x] `p:first-child`
+      - [x] `p + img`
+      - [x] `p>img`
+      - [x] `div img`
+  - [x] Media Queries: Responsividade pelo CSS
+    - [x] `@media screen and (max-width:...px)`: Desktop first
+    - [x] `@media screen and (min-width:...px)`: Mobile first
+
+- [x] **Finalizando a aula**
+  - [x] Responder dúvidas
+  - [x] Apresentar exercícios da semana, para entregar na sexta (20/11)
+ 
+---
+
+### Links úteis para estudo de Layouts Responsivos
+
+- [W3Schools - Responsividade em HTML e CSS](https://www.w3schools.com/html/html_responsive.asp)
+- [Documentação do MDN sobre Layouts Responsivos](https://developer.mozilla.org/pt-BR/docs/Learn/CSS/CSS_layout/Responsive_Design)
+- [Origamid - Conteúdo para refrescar display flex](https://origamid.com/projetos/flexbox-guia-completo/)
+- [CSS Tricks - Sobre Flex-wrap, muito usado em responsividade!](https://css-tricks.com/almanac/properties/f/flex-wrap/)
+- [Conteúdo sobre Display Grid - Layout para imgs no CSS](https://learncssgrid.com/)
+- [Conteúdo sobre Media QUery em PT-BR](http://devfuria.com.br/html-css/media-queries/)
+
+
+---

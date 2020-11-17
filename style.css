@@ -1,4 +1,5 @@
 body {
+  font-size: 18px;
   box-sizing: border-box;
   font-family: "Source Sans Pro", sans-serif;
   background-color: blanchedalmond;
@@ -10,7 +11,7 @@ header {
 
 header h1 {
   font-family: "Leckerli One", cursive;
-  font-size: 300%;
+  font-size: 3.3rem;
   text-align: center;
 }
 
@@ -18,6 +19,7 @@ header h3 {
   text-align: center;
   font-family: "Source Sans Pro", sans-serif;
   font-weight: lighter;
+  font-size: 1.4rem;
 }
 
 .header__titulos {
@@ -42,7 +44,7 @@ header > nav {
 nav ul {
   display: flex;
   justify-content: space-around;
-  flex-wrap: wrap;
+  font-size: 1.1rem;
 }
 
 nav li {
@@ -73,7 +75,7 @@ li > a:hover {
 .main__textoDescritivo {
   max-width: 800px;
   text-align: justify;
-  font-size: 18px;
+  font-size: 1.2rem;
   line-height: 30px;
 }
 
@@ -87,6 +89,7 @@ img + p {
   color: grey;
   font-weight: bold;
   margin-top: -4px;
+  font-size: 1.1rem;
 }
 
 .main__trioSuculentas--container {
@@ -145,12 +148,16 @@ footer p {
 }
 
 @media screen and (max-width: 730px) {
+  body {
+    font-size: 16px;
+  }
+
   .main__textoDescritivo--container {
     padding: 23px;
   }
 
   .header__titulos {
-    line-height: 38px;
+    line-height: 40px;
     margin-bottom: 50px;
   }
 }
